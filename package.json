@@ -1,23 +1,35 @@
 {
-  "name": "SudokuJS",
-  "private": "true",
-  "description": "JavaScript step-by-step Sudoku solver and board generator",
-  "version": "0.4.6",
-  "homepage": "https://github.com/pocketjoso/sudokuJS",
+  "name": "modern-sudoku-js",
+  "version": "1.0.0",
+  "description": "A modernized fork of SudokuJS: a step-by-step Sudoku solver and board generator",
+  "homepage": "https://github.com/ucielsola/modern-sudoku-js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ucielsola/modern-sudoku-js.git"
+  },
   "author": {
-    "name": "Jonas Ohlsson",
-    "email": "jonas.sebastian.ohlsson@gmail.com",
-    "url": "http://jonassebastianohlsson.com"
+    "name": "Uciel Sola",
+    "email": "solauciel@gmail.com",
+    "url": "https://ucielsola.dev"
   },
-  "scripts": {
-    "test": "node_modules/.bin/mocha test"
-  },
+  "contributors": [
+    {
+      "name": "Jonas Ohlsson",
+      "email": "jonas.sebastian.ohlsson@gmail.com",
+      "url": "http://jonassebastianohlsson.com"
+    }
+  ],
+  "license": "MIT",
   "keywords": [
     "Sudoku",
     "Sudoku solver",
     "Sudoku generator",
     "Sudoku puzzles",
     "Sudoku difficulty",
-    "game"
-  ]
+    "game",
+    "modern"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
