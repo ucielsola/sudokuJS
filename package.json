@@ -29,7 +29,14 @@
     "game",
     "modern"
   ],
+  "scripts": {
+    "test": "vitest"
+  },
   "engines": {
     "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
   }
 }
